@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-side {
+    /* Add any additional styling as needed */
+  }
+
+  .right-side {
+    /* Add any additional styling as needed */
+  }
