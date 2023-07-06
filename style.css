@@ -1,12 +1,41 @@
-.header {
+.banner {
     display: flex;
     justify-content: space-between;
-  }
+    background-color: rgb(245, 245, 235);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 20px;
 
+  }
+  body {
+    background-color: rgb(207, 243, 207);
+  }
+  .section:{
+    margin-top: 500px; /* Adjust the value as needed */
+  }
   .left-side {
     /* Add any additional styling as needed */
   }
 
   .right-side {
     /* Add any additional styling as needed */
+  }
+
+  .box{
+    font-family: sans-serif;
+    font-size: 1em;
+    width: calc(100% - 6em);
+    background: white;
+    color: black;
+    box-sizing: border-box;
+    padding:1em;
+  }
+   {
+    width: 200px; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    background-color: #f2f2f2; /* Set the background color of the box */
+    border: 1px solid #000; /* Add a border to the box */
   }
