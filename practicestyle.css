@@ -29,7 +29,9 @@
 *{
     box-sizing: border-box;
 }
-
+section{
+    border-top: 1px solid #bbb;
+}
 .main{
     min-height: 100vh;
     padding: 64px 24px 96px;
