@@ -1,5 +1,4 @@
 # my-personal-website
-"My Personal Portfolio Site"
 
 "My Personal Portfolio Site is a website where I share my background, experiences, and projects related to the tech industry. It serves as a platform to showcase my skills, highlight my journey into technology, and provide insights into my hobbies and unique qualities.
 
