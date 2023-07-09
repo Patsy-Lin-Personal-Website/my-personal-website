@@ -10,9 +10,11 @@
 
 .name{
    float: left;
+   font-size: x-large
 }
 .links{
    float: right;
+   font-size: x-large;
 }
 .body{
     max-width: 960px;
