@@ -1,27 +1,20 @@
 .banner {
-    font-size: 2rem;
     position: fixed;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    /* width: 100%;
-    height: 50px; */
-    background: #FFD000;
-    color: rgb(166, 35, 166);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5em 1em;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
 
+.name{
+   float: left;
 }
 .links{
-    float: right;
-}
-.name{
-    float: left;
+   float: right;
 }
 .body{
-    background: rgb(red, green, blue);
     max-width: 960px;
     color:black;
     margin: 0 auto;
@@ -35,6 +28,7 @@ section{
     border-top: 1px solid #bbb;
 }
 .main{
+    margin-top: 100px;
     min-height: 100vh;
     padding: 64px 24px 96px;
     box-shadow: 0 0 12px -2px black;
@@ -70,16 +64,7 @@ main{
     padding: 20px;
 }
 
-.box {
-    background-color: lightgray;
-    padding: 20px;
-}
-
-.box h2 {
-    margin-bottom: 10px;
-
-}
-
-.box p {
-    margin-bottom: 0;
-}
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
