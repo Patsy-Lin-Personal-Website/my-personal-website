@@ -8,40 +8,45 @@
     padding: 10px;
   }
 
-.name{
-   float: left;
-   font-size: x-large
-}
-.links{
-   float: right;
-   font-size: x-large;
-}
-.body{
+  .name {
+    float: left;
+    font-size: x-large;
+  }
+
+  .links {
+    float: right;
+    font-size: x-large;
+  }
+
+  .body {
     max-width: 960px;
-    color:black;
+    color: black;
     margin: 0 auto;
     display: block;
-}
+  }
 
-*{
+  * {
     box-sizing: border-box;
-}
-section{
+  }
+
+  section {
     border-top: 1px solid #bbb;
-}
-.main{
+  }
+
+  .main {
     margin-top: 100px;
     min-height: 100vh;
     padding: 64px 24px 96px;
     box-shadow: 0 0 12px -2px black;
     color: aliceblue;
     font-family: sans-serif;
-}
-main{
-    display: block
-}
+  }
 
-.banner:after {
+  main {
+    display: block;
+  }
+
+  .banner:after {
     content: "";
     display: block;
     clear: both;
@@ -61,12 +66,13 @@ main{
     padding-left: 20px;
     padding-right: 20px;
   }
-.content {
+
+  .content {
     margin-top: 100px;
     padding: 20px;
-}
+  }
 
-.responsive-image {
+  .responsive-image {
     max-width: 100%;
     height: auto;
   }
@@ -74,31 +80,31 @@ main{
   .form-container {
     max-width: 400px;
     margin: 0 auto;
-}
+  }
 
-.form-group {
+  .form-group {
     margin-bottom: 20px;
-}
+  }
 
-.form-group label {
+  .form-group label {
     display: block;
     margin-bottom: 5px;
-}
+  }
 
-.form-group input,
-.form-group textarea {
+  .form-group input,
+  .form-group textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
+  }
 
-.form-group textarea {
+  .form-group textarea {
     resize: vertical;
     height: 100px;
-}
+  }
 
-.submit-btn {
+  .submit-btn {
     display: block;
     width: 100%;
     padding: 10px;
@@ -107,12 +113,28 @@ main{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
+  }
 
-.submit-btn:hover {
+  .submit-btn:hover {
     background-color: #45a049;
-}
+  }
 
-.grid-container {
+  .grid-container {
     display: grid;
+  }
+
+  @media screen and (max-width: 768px) {
+    .name,
+    .links {
+      float: none;
+      font-size: medium;
+    }
+
+    .form-container {
+      max-width: none;
+    }
+
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
